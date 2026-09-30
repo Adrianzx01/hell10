@@ -22,7 +22,7 @@ build: .
 container_name: minha_api_node
 restart: on-failure # Reinicia se falhar (ex: se o banco ainda estiver subindo)
 ports:
-- "8050:8050"
+- "8038:8038"
 environment:
 DB_HOST: db # Nome do serviço do banco na rede do Compose
 DB_USER: admin
